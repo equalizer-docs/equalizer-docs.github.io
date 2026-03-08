@@ -27,37 +27,37 @@ Admin               | [0xbF4BFeB838De95d64726d55dfae5295b3DFb4B4B](https://sonic
 
 # Thick Contracts
 
-{: .highlight } Equalizer's Concentrated Liquidity Farms utilize the Protocol-Agnostic Concentrated Liquidity from [Eliteness.Network's Thick AMM](https://ftm.guru/docs/thick)
-
-## Thick (v1)
-
-Contract Name  | Contract Address
-------------- | -------------
-Factory               | [0xE6dA85feb3B4E0d6AEd95c41a125fba859bB9d24](https://ftmscan.com/address/0xE6dA85feb3B4E0d6AEd95c41a125fba859bB9d24)
-Multicall             | [0x4c29682a07c50dD5F6BdF36EB97fb28F5C1681E3](https://ftmscan.com/address/0x4c29682a07c50dD5F6BdF36EB97fb28F5C1681E3)
-Proxy Admin           | [0x687dad08623C88452a5deB3A4482c979fA3F571E](https://ftmscan.com/address/0x687dad08623C88452a5deB3A4482c979fA3F571E)
-Tick Lens             | [0xb80a72281c76464CC0e1FbF2431A897393E0d757](https://ftmscan.com/address/0xb80a72281c76464CC0e1FbF2431A897393E0d757)
-ArtLibrary            | [0x97A7B2f95FDa7181dA16aec3072cD55a58D85073](https://ftmscan.com/address/0x97A7B2f95FDa7181dA16aec3072cD55a58D85073)
-Art                   | [0x6bD73537da943723124C2A50F0f95557f4aCC9A2](https://ftmscan.com/address/0x6bD73537da943723124C2A50F0f95557f4aCC9A2)
-Art Proxy             | [0x4bfb3993733b13bba2376e56f9d7ffaf56e047cf](https://ftmscan.com/address/0x4bfb3993733b13bba2376e56f9d7ffaf56e047cf)
-NFT Manager           | [0x2B52294425a9a229322228de659eDE9D146D7c2f](https://ftmscan.com/address/0x2B52294425a9a229322228de659eDE9D146D7c2f)
-Quoter                | [0xF5B7181877FeAB982A4b49a99E84BB7cBEBEFF98](https://ftmscan.com/address/0xF5B7181877FeAB982A4b49a99E84BB7cBEBEFF98)
-Router                | [0x1F7A12B40bFc8e8561008Bc2ca1FBdc71A36d0e8](https://ftmscan.com/address/0x1F7A12B40bFc8e8561008Bc2ca1FBdc71A36d0e8)
+Equalizer's Liquidity Pools & Farms utilize the Protocol-Agnostic Concentrated Liquidity from [Eliteness.Network's Thick AMM](https://ftm.guru/docs/thick).
 
 ## 2THICK (v2)
 
 V2 Addresses - 2THICK
 
-All "2Thick" addresses are Same on Base, Fantom & Sonic
-- `0x7Ca1dCCFB4f49564b8f13E18a67747fd428F1C40` = v3CoreFactory
-- `0x9B500c0a544B870D9C4c441147dCaEf599e542E7` = multicall2
-- `0x30f45DEfBbce0030eE14F9E08D36102115e5CE3b` = proxyAdmin
-- `0x547DB6759B0aF9e050855106993e3CEFC16E937E` = tickLens
-- `0x79C26D7AC184BB9C453B996475F484668E516dE5` = nonfungibleTokenPositionManager
-- `0xc701e92Db1Ef14AB64f66F18536b1E07678dB678` = quoterV2
-- `0xE4Ba08712C404042b8EEfC3fdF3b603c977500dF` = swapRouter02
+All "2Thick" addresses are identical on Base, Fantom & Sonic
 
+Contract Name  | Contract Address
+------------- | -------------
+v3CoreFactory  | [0x7Ca1dCCFB4f49564b8f13E18a67747fd428F1C40](https://sonicscan.org/address/0x7Ca1dCCFB4f49564b8f13E18a67747fd428F1C40)
+multicall2     | [0x9B500c0a544B870D9C4c441147dCaEf599e542E7](https://sonicscan.org/address/0x9B500c0a544B870D9C4c441147dCaEf599e542E7)
+proxyAdmin     | [0x30f45DEfBbce0030eE14F9E08D36102115e5CE3b](https://sonicscan.org/address/0x30f45DEfBbce0030eE14F9E08D36102115e5CE3b)
+tickLens       | [0x547DB6759B0aF9e050855106993e3CEFC16E937E](https://sonicscan.org/address/0x547DB6759B0aF9e050855106993e3CEFC16E937E)
+nonfungibleTokenPositionManager | [0x79C26D7AC184BB9C453B996475F484668E516dE5](https://sonicscan.org/address/0x79C26D7AC184BB9C453B996475F484668E516dE5)
+quoterV2       | [0xc701e92Db1Ef14AB64f66F18536b1E07678dB678](https://sonicscan.org/address/0xc701e92Db1Ef14AB64f66F18536b1E07678dB678)
+swapRouter02   | [0xE4Ba08712C404042b8EEfC3fdF3b603c977500dF](https://sonicscan.org/address/0xE4Ba08712C404042b8EEfC3fdF3b603c977500dF)
 
-## THICK3R (v3)
+## (Legacy) Thick V1
 
-### Only trust the addresses labelled in our docs!
+Contract Name  | Contract Address
+------------- | -------------
+Factory               | [0xE6dA85feb3B4E0d6AEd95c41a125fba859bB9d24](https://sonicscan.org/address/0xE6dA85feb3B4E0d6AEd95c41a125fba859bB9d24)
+Multicall             | [0x4c29682a07c50dD5F6BdF36EB97fb28F5C1681E3](https://sonicscan.org/address/0x4c29682a07c50dD5F6BdF36EB97fb28F5C1681E3)
+Proxy Admin           | [0x687dad08623C88452a5deB3A4482c979fA3F571E](https://sonicscan.org/address/0x687dad08623C88452a5deB3A4482c979fA3F571E)
+Tick Lens             | [0xb80a72281c76464CC0e1FbF2431A897393E0d757](https://sonicscan.org/address/0xb80a72281c76464CC0e1FbF2431A897393E0d757)
+ArtLibrary            | [0x97A7B2f95FDa7181dA16aec3072cD55a58D85073](https://sonicscan.org/address/0x97A7B2f95FDa7181dA16aec3072cD55a58D85073)
+Art                   | [0x6bD73537da943723124C2A50F0f95557f4aCC9A2](https://sonicscan.org/address/0x6bD73537da943723124C2A50F0f95557f4aCC9A2)
+Art Proxy             | [0x4bfb3993733b13bba2376e56f9d7ffaf56e047cf](https://sonicscan.org/address/0x4bfb3993733b13bba2376e56f9d7ffaf56e047cf)
+NFT Manager           | [0x2B52294425a9a229322228de659eDE9D146D7c2f](https://sonicscan.org/address/0x2B52294425a9a229322228de659eDE9D146D7c2f)
+Quoter                | [0xF5B7181877FeAB982A4b49a99E84BB7cBEBEFF98](https://sonicscan.org/address/0xF5B7181877FeAB982A4b49a99E84BB7cBEBEFF98)
+Router                | [0x1F7A12B40bFc8e8561008Bc2ca1FBdc71A36d0e8](https://sonicscan.org/address/0x1F7A12B40bFc8e8561008Bc2ca1FBdc71A36d0e8)
+
+Only trust the addresses labelled in our docs!
